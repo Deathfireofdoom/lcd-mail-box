@@ -13,7 +13,7 @@ def display_message(message, times=5):
 
     if len(signedby) > 14:
         words = msg.split()
-        signedby_compact = f"words[0][0]. {' '.join(words[1:])}"
+        signedby_compact = f"{words[0][0]}. {' '.join(words[1:])}"
         lcd.text(f"- {signedby_compact}", 2)
     else:
         lcd.text(f"- {signedby}", 2)
