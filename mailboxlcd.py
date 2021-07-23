@@ -9,7 +9,7 @@ def display_message(message, times=5):
     msg = message['message']
     signedby = message['signedby']
 
-    msg = 16*" " + msg + 16*" "
+    msg = 16*" " + msg
 
     lcd.text(f"- {signedby}", 2)
     
