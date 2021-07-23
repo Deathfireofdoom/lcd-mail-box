@@ -1,5 +1,5 @@
 from time import sleep
-#from rpi_lcd import LCD
+from rpi_lcd import LCD
 
 
 
