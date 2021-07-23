@@ -17,5 +17,5 @@ def display_message(message, times=5):
         for x in range(len(msg) ):
             display_text = msg[x: x+16]
             lcd.text(display_text, 1)
-            sleep(0.5)
+            sleep(0.2)
     lcd.clear()
